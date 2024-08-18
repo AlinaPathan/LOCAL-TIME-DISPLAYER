@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCAL TIME DISPLAYER</title>
+</head>
+<style>
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        color: white;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .head{
+        font-weight:400;
+        font-size:40px;
+    }
+    .button{
+        background: orange;
+        width:300px;
+        height:70px;
+        border-radius: 20px;
+        padding:15px ;
+        margin: 10px;
+        font: 55px solid white;
+    }
+</style>
+<body>
+    <div class="head">YOUR LOCAL TIME</div>
+    <div class="button">
+        <div class="clock"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
